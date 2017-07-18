@@ -1,0 +1,1340 @@
+//  Foundation for Sites Settings
+//  -----------------------------
+//
+//  Table of Contents:
+//
+//   1. Global
+//   2. Breakpoints
+//   3. The Grid
+//   4. Base Typography
+//   5. Typography Helpers
+//   6. Abide
+//   7. Accordion
+//   8. Accordion Menu
+//   9. Badge
+//  10. Breadcrumbs
+//  11. Button
+//  12. Button Group
+//  13. Callout
+//  14. Close Button
+//  15. Drilldown
+//  16. Dropdown
+//  17. Dropdown Menu
+//  18. Flex Video
+//  19. Forms
+//  20. Label
+//  21. Media Object
+//  22. Menu
+//  23. Meter
+//  24. Off-canvas
+//  25. Orbit
+//  26. Pagination
+//  27. Progress Bar
+//  28. Reveal
+//  29. Slider
+//  30. Switch
+//  31. Table
+//  32. Tabs
+//  33. Thumbnail
+//  34. Title Bar
+//  35. Tooltip
+//  36. Top Bar
+
+
+
+// 1. Global
+// ---------
+
+$global-font-size: 14px;
+$global-width: rem-calc(1600);
+$global-lineheight: 1.5;
+$foundation-palette: (
+primary: #6d6d6d,
+secondary: #777,
+success: #78d1bd,
+warning: #ffae00,
+alert: #ef4d4e,
+);
+$light-gray: #f1f1f1;
+$ultra-light-gray: #f8f8f8;
+$medium-gray: #cacaca;
+$dark-gray: #6d6d6d;
+$black: #0a0a0a;
+$white: #fff;
+$body-background: $light-gray;
+$body-font-color: $black;
+$body-font-family: Verdana;
+$body-font-family: 'Open sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-antialiased: true;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-weight-normal: normal;
+$global-weight-bold: bold;
+$global-radius: 0;
+$global-text-direction: ltr;
+$global-flexbox: true;
+$print-transparent-backgrounds: true;
+
+@include add-foundation-colors();
+
+// 2. Breakpoints
+// --------------e probwam neshto da hackna predniq font ne moj
+
+$breakpoints: (
+small: 0,
+medium: 640px,
+large: 1024px,
+xlarge: 1200px,
+xxlarge: 1440px,
+);
+$breakpoint-classes: (small medium large xlarge xxlarge);
+
+// 3. The Grid
+// -----------
+
+$grid-row-width: $global-width;
+$grid-column-count: 12;
+$grid-column-gutter: (
+small: 20px,
+medium: 30px,
+);
+$grid-column-align-edge: true;
+$block-grid-max: 8;
+
+// 4. Base Typography
+// ------------------
+
+$header-font-family: $body-font-family;
+$header-font-weight: $global-weight-normal;
+$header-font-style: normal;
+$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+$header-sizes: (
+small: (
+'h1': 24,
+'h2': 20,
+'h3': 19,
+'h4': 18,
+'h5': 17,
+'h6': 16,
+),
+medium: (
+'h1': 48,
+'h2': 40,
+'h3': 31,
+'h4': 25,
+'h5': 18,
+'h6': 16,
+),
+);
+$header-color: inherit;
+$header-lineheight: 1.4;
+$header-margin-bottom: 0.5rem;
+$header-text-rendering: optimizeLegibility;
+$small-font-size: 80%;
+$header-small-font-color: $medium-gray;
+$paragraph-lineheight: 1.6;
+$paragraph-margin-bottom: 1rem;
+$paragraph-text-rendering: optimizeLegibility;
+$code-color: $black;
+$code-font-family: $font-family-monospace;
+$code-font-weight: $global-weight-normal;
+$code-background: $light-gray;
+$code-border: 1px solid $medium-gray;
+$code-padding: rem-calc(2 5 1);
+$anchor-color: $primary-color;
+$anchor-color-hover: $alert-color;
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: none;
+$hr-width: $global-width;
+$hr-border: 1px solid $medium-gray;
+$hr-margin: rem-calc(20) auto;
+$list-lineheight: $paragraph-lineheight;
+$list-margin-bottom: $paragraph-margin-bottom;
+$list-style-type: disc;
+$list-style-position: outside;
+$list-side-margin: 1.25rem;
+$list-nested-side-margin: 1.25rem;
+$defnlist-margin-bottom: 1rem;
+$defnlist-term-weight: $global-weight-bold;
+$defnlist-term-margin-bottom: 0.3rem;
+$blockquote-color: $dark-gray;
+$blockquote-padding: rem-calc(9 20 0 19);
+$blockquote-border: 1px solid $medium-gray;
+$cite-font-size: rem-calc(13);
+$cite-color: $dark-gray;
+$keystroke-font: $font-family-monospace;
+$keystroke-color: $black;
+$keystroke-background: $light-gray;
+$keystroke-padding: rem-calc(2 4 0);
+$keystroke-radius: $global-radius;
+$abbr-underline: 1px dotted $black;
+
+// 5. Typography Helpers
+// ---------------------
+
+$lead-font-size: $global-font-size * 1.25;
+$lead-lineheight: 1.6;
+$subheader-lineheight: 1.4;
+$subheader-color: $dark-gray;
+$subheader-font-weight: $global-weight-normal;
+$subheader-margin-top: 0.2rem;
+$subheader-margin-bottom: 0.5rem;
+$stat-font-size: 2.5rem;
+
+// 6. Abide
+// --------
+
+$abide-inputs: true;
+$abide-labels: true;
+$input-background-invalid: map-get($foundation-palette, alert);
+$form-label-color-invalid: map-get($foundation-palette, alert);
+$input-error-color: map-get($foundation-palette, alert);
+$input-error-font-size: rem-calc(12);
+$input-error-font-weight: $global-weight-bold;
+
+// 7. Accordion
+// ------------
+
+$accordion-background: $white;
+$accordion-plusminus: true;
+$accordion-item-color: foreground($accordion-background, $primary-color);
+$accordion-item-background-hover: $light-gray;
+$accordion-item-padding: 1.25rem 1rem;
+$accordion-content-background: $white;
+$accordion-content-border: none;
+$accordion-content-color: foreground($accordion-background, $primary-color);
+$accordion-content-padding: 1rem;
+
+// 8. Accordion Menu
+// -----------------
+
+$accordionmenu-arrows: true;
+$accordionmenu-arrow-color: $primary-color;
+
+// 9. Badge
+// --------
+
+$badge-background: $primary-color;
+$badge-color: foreground($badge-background);
+$badge-padding: 0.3em;
+$badge-minwidth: 2.1em;
+$badge-font-size: 0.6rem;
+
+// 10. Breadcrumbs
+// ---------------
+
+$breadcrumbs-margin: 0 0 $global-margin 0;
+$breadcrumbs-item-font-size: rem-calc(11);
+$breadcrumbs-item-color: $primary-color;
+$breadcrumbs-item-color-current: $black;
+$breadcrumbs-item-color-disabled: $medium-gray;
+$breadcrumbs-item-margin: 0.75rem;
+$breadcrumbs-item-uppercase: true;
+$breadcrumbs-item-slash: true;
+
+// 11. Button
+// ----------
+
+$button-padding: 0.85em 1em;
+$button-margin: 0 0 $global-margin 0;
+$button-fill: solid;
+$button-background: $primary-color;
+$button-background-hover: scale-color($button-background, $lightness: -15%);
+$button-color: $white;
+$button-color-alt: $black;
+$button-radius: $global-radius;
+$button-sizes: (
+tiny: 0.6rem,
+small: 0.75rem,
+default: 0.9rem,
+large: 1.25rem,
+);
+$button-opacity-disabled: 0.25;
+
+// 12. Button Group
+// ----------------
+
+$buttongroup-margin: 1rem;
+$buttongroup-spacing: 1px;
+$buttongroup-child-selector: '.button';
+$buttongroup-expand-max: 6;
+
+// 13. Callout
+// -----------
+
+$callout-background: $white;
+$callout-background-fade: 85%;
+$callout-border: 1px solid rgba($black, 0.25);
+$callout-margin: 0 0 1rem 0;
+$callout-padding: 1rem;
+$callout-font-color: $body-font-color;
+$callout-font-color-alt: $body-background;
+$callout-radius: $global-radius;
+$callout-link-tint: 30%;
+
+// 14. Close Button
+// ----------------
+
+$closebutton-position: right top;
+$closebutton-offset-horizontal: 1rem;
+$closebutton-offset-vertical: 0.5rem;
+$closebutton-size: 2em;
+$closebutton-lineheight: 1;
+$closebutton-color: $dark-gray;
+$closebutton-color-hover: $black;
+
+// 15. Drilldown
+// -------------
+
+$drilldown-transition: transform 0.15s linear;
+$drilldown-arrows: true;
+$drilldown-arrow-color: $primary-color;
+$drilldown-background: $white;
+
+// 16. Dropdown
+// ------------
+
+$dropdown-padding: 1rem;
+$dropdown-border: 1px solid $medium-gray;
+$dropdown-font-size: 1rem;
+$dropdown-width: 300px;
+$dropdown-radius: $global-radius;
+$dropdown-sizes: (
+tiny: 100px,
+small: 200px,
+large: 400px,
+);
+
+// 17. Dropdown Menu
+// -----------------
+
+$dropdownmenu-arrows: true;
+$dropdownmenu-arrow-color: $anchor-color;
+$dropdownmenu-min-width: 200px;
+$dropdownmenu-background: $white;
+$dropdownmenu-border: 1px solid $medium-gray;
+
+// 18. Flex Video
+// --------------
+
+$flexvideo-margin-bottom: rem-calc(16);
+$flexvideo-ratio: 4 by 3;
+$flexvideo-ratio-widescreen: 16 by 9;
+
+// 19. Forms
+// ---------
+
+$fieldset-border: 1px solid $medium-gray;
+$fieldset-padding: rem-calc(20);
+$fieldset-margin: rem-calc(18 0);
+$legend-padding: rem-calc(0 3);
+$form-spacing: rem-calc(16);
+$helptext-color: $black;
+$helptext-font-size: rem-calc(13);
+$helptext-font-style: italic;
+$input-prefix-color: $black;
+$input-prefix-background: $light-gray;
+$input-prefix-border: 1px solid $medium-gray;
+$input-prefix-padding: 1rem;
+$form-label-color: $black;
+$form-label-font-size: rem-calc(14);
+$form-label-font-weight: $global-weight-normal;
+$form-label-line-height: 1.8;
+$select-background: $white;
+$select-triangle-color: $alert-color;
+$select-radius: $global-radius;
+$input-color: $black;
+$input-placeholder-color: $medium-gray;
+$input-font-family: $body-font-family;
+$input-font-size: rem-calc(14);
+$input-background: $white;
+$input-background-focus: $white;
+$input-background-disabled: $light-gray;
+$input-border: 1px solid $medium-gray;
+$input-border-focus: 1px solid $medium-gray;
+$input-shadow: none;
+$input-shadow-focus: none;
+$input-cursor-disabled: default;
+$input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+$input-number-spinners: true;
+$input-radius: $global-radius;
+
+// 20. Label
+// ---------
+
+$label-background: $primary-color;
+$label-color: foreground($label-background);
+$label-font-size: 0.8rem;
+$label-padding: 0.33333rem 0.5rem;
+$label-radius: $global-radius;
+
+// 21. Media Object
+// ----------------
+
+$mediaobject-margin-bottom: $global-margin;
+$mediaobject-section-padding: $global-padding;
+$mediaobject-image-width-stacked: 100%;
+
+// 22. Menu
+// --------
+
+$menu-margin: 0;
+$menu-margin-nested: 1rem;
+$menu-item-padding: 0.7rem 1rem;
+$menu-item-color-active: $alert-color;
+$menu-item-background-active: transparent;
+$menu-icon-spacing: 0.25rem;
+
+// 23. Meter
+// ---------
+
+$meter-height: 1rem;
+$meter-radius: $global-radius;
+$meter-background: $medium-gray;
+$meter-fill-good: $success-color;
+$meter-fill-medium: $warning-color;
+$meter-fill-bad: $alert-color;
+
+// 24. Off-canvas
+// --------------
+
+$offcanvas-size: 250px;
+$offcanvas-background: $light-gray;
+$offcanvas-zindex: -1;
+$offcanvas-transition-length: 0.5s;
+$offcanvas-transition-timing: ease;
+$offcanvas-fixed-reveal: false;
+$offcanvas-exit-background: rgba($white, 0);
+$maincontent-class: 'off-canvas-content';
+$maincontent-shadow: none;
+
+// 25. Orbit
+// ---------
+
+$orbit-bullet-background: $medium-gray;
+$orbit-bullet-background-active: $dark-gray;
+$orbit-bullet-diameter: 1.2rem;
+$orbit-bullet-margin: 0.1rem;
+$orbit-bullet-margin-top: 0.8rem;
+$orbit-bullet-margin-bottom: 0.8rem;
+$orbit-caption-background: rgba($black, 0.5);
+$orbit-caption-padding: 1rem;
+$orbit-control-background-hover: rgba($black, 0.5);
+$orbit-control-padding: 1rem;
+$orbit-control-zindex: 10;
+
+// 26. Pagination
+// --------------
+
+$pagination-font-size: rem-calc(14);
+$pagination-margin-bottom: $global-margin;
+$pagination-item-color: $black;
+$pagination-item-padding: rem-calc(3 10);
+$pagination-item-spacing: rem-calc(1);
+$pagination-radius: $global-radius;
+$pagination-item-background-hover: $light-gray;
+$pagination-item-background-current: $alert-color;
+$pagination-item-color-current:$white;
+$pagination-item-color-disabled: $medium-gray;
+$pagination-ellipsis-color: $black;
+$pagination-mobile-items: false;
+$pagination-arrows: true;
+
+// 27. Progress Bar
+// ----------------
+
+$progress-height: 1rem;
+$progress-background: $medium-gray;
+$progress-margin-bottom: $global-margin;
+$progress-meter-background: $primary-color;
+$progress-radius: $global-radius;
+
+// 28. Reveal
+// ----------
+
+$reveal-background: $white;
+$reveal-width: 600px !important;
+$reveal-max-width: $global-width;
+$reveal-padding: $global-padding;
+$reveal-border: 1px solid $medium-gray;
+$reveal-radius: $global-radius;
+$reveal-zindex: 1005;
+$reveal-overlay-background: rgba($black, 0.45);
+
+// 29. Slider
+// ----------
+
+$slider-width-vertical: 0.5rem;
+$slider-transition: all 0.2s ease-in-out;
+$slider-height: 0.5rem;
+$slider-background: $light-gray;
+$slider-fill-background: $medium-gray;
+$slider-handle-height: 1.4rem;
+$slider-handle-width: 1.4rem;
+$slider-handle-background: $primary-color;
+$slider-opacity-disabled: 0.25;
+$slider-radius: $global-radius;
+
+// 30. Switch
+// ----------
+
+$switch-background: $medium-gray;
+$switch-background-active: $success-color;
+$switch-height: 2rem;
+$switch-height-tiny: 1.5rem;
+$switch-height-small: 1.75rem;
+$switch-height-large: 2.5rem;
+$switch-radius: $global-radius;
+$switch-margin: $global-margin;
+$switch-paddle-background: $white;
+$switch-paddle-offset: 0.25rem;
+$switch-paddle-radius: $global-radius;
+$switch-paddle-transition: all 0.25s ease-out;
+
+// 31. Table
+// ---------
+
+$table-background: $white;
+$table-color-scale: 5%;
+$table-border: 1px solid smart-scale($table-background, $table-color-scale);
+$table-padding: rem-calc(8 10 10);
+$table-hover-scale: 2%;
+$table-row-hover: darken($table-background, $table-hover-scale);
+$table-row-stripe-hover: darken($table-background, $table-color-scale + $table-hover-scale);
+$table-striped-background: smart-scale($table-background, $table-color-scale);
+$table-stripe: even;
+$table-head-background: smart-scale($table-background, $table-color-scale / 2);
+$table-foot-background: smart-scale($table-background, $table-color-scale);
+$table-head-font-color: $body-font-color;
+$show-header-for-stacked: false;
+
+// 32. Tabs
+// --------
+
+$tab-margin: 0;
+$tab-background: transparent;
+$tab-background-active: $white;
+$tab-item-font-size: rem-calc(12);
+$tab-item-background-hover: $purple;
+$tab-item-padding: rem-calc(17px) rem-calc(20px);
+$tab-expand-max: 6;
+$tab-content-background: $white;
+$tab-content-border: $light-gray;
+$tab-content-color: foreground($tab-background, $primary-color);
+$tab-content-padding: 1rem;
+
+// 33. Thumbnail
+// -------------
+
+$thumbnail-border: solid 4px $white;
+$thumbnail-margin-bottom: $global-margin;
+$thumbnail-shadow: 0 0 0 1px rgba($black, 0.2);
+$thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
+$thumbnail-transition: box-shadow 200ms ease-out;
+$thumbnail-radius: $global-radius;
+
+// 34. Title Bar
+// -------------
+
+$titlebar-background: $black;
+$titlebar-color: $white;
+$titlebar-padding: 0.5rem;
+$titlebar-text-font-weight: bold;
+$titlebar-icon-color: $white;
+$titlebar-icon-color-hover: $medium-gray;
+$titlebar-icon-spacing: 0.25rem;
+
+// 35. Tooltip
+// -----------
+
+$has-tip-font-weight: $global-weight-bold;
+$has-tip-border-bottom: dotted 1px $dark-gray;
+$tooltip-background-color: rgba(10, 10, 10, 0.6);
+$tooltip-color: $white;
+$tooltip-padding: 0.75rem;
+$tooltip-font-size: $small-font-size;
+$tooltip-pip-width: 0.75rem;
+$tooltip-pip-height: $tooltip-pip-width * 0.866;
+$tooltip-radius: $global-radius;
+
+// 36. Top Bar
+// -----------
+
+//$topbar-padding: 0.5rem;
+$topbar-padding: 0;
+$topbar-background: $dark-gray !default;
+$topbar-submenu-background: $topbar-background;
+$topbar-title-spacing: 1rem;
+$topbar-input-width: 200px;
+$topbar-unstack-breakpoint: large;
+$topbar-background: $white;
+$topbar-submenu-background: $white;
+
+
+// generic transform
+@mixin transform($transforms) {
+-moz-transform: $transforms;
+-o-transform: $transforms;
+-ms-transform: $transforms;
+-webkit-transform: $transforms;
+transform: $transforms;
+}
+// rotate
+@mixin rotate ($deg) {
+@include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+@include transform(scale($scale));
+} 
+// translate
+@mixin translate ($x, $y) {
+@include transform(translate($x, $y));
+}
+// skew
+@mixin skew ($x, $y) {
+@include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+moz-transform-origin: $origin;
+-o-transform-origin: $origin;
+-ms-transform-origin: $origin;
+-webkit-transform-origin: $origin;
+transform-origin: $origin;
+}
+
+
+
+@mixin border-radius($radius) {
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+-ms-border-radius: $radius;
+border-radius: $radius;
+}
+
+@mixin absolutly-centered() {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+}
+
+@mixin translateX($x) {
+transform: translate($x, 0);
+-o-transform: translate($x, 0);
+-ms-transform: translate($x, 0);
+-moz-transform: translate($x, 0);
+-webkit-transform: translate($x, 0);
+}
+
+@mixin translateY($x) {
+transform: translate(0, $x);
+-o-transform: translate(0, $x);
+-ms-transform: translate(0, $x);
+-moz-transform: translate(0, $x);
+-webkit-transform: translate(0, $x);
+}
+
+@mixin sprite-bg($posX, $posY) {
+background: url(../images/shell/shell-sprite.png) no-repeat;
+background-position: $posX $posY;
+}
+
+@mixin css-triangle($triangle-size, $triangle-color, $triangle-direction) {
+content: "";
+display: block;
+width: 0;
+height: 0;
+border: inset $triangle-size;
+@if ($triangle-direction==top) {
+border-color: $triangle-color transparent transparent transparent;
+border-top-style: solid;
+}
+@if ($triangle-direction==bottom) {
+border-color: transparent transparent $triangle-color transparent;
+border-bottom-style: solid;
+}
+@if ($triangle-direction==left) {
+border-color: transparent transparent transparent $triangle-color;
+border-left-style: solid;
+}
+@if ($triangle-direction==right) {
+border-color: transparent $triangle-color transparent transparent;
+border-right-style: solid;
+}
+}
+@mixin absCenter($x:false){
+@if not $x {
+position: absolute;
+top: 50%;
+transform:translate(0, -50%);
+-webkit-transform:translate(0, -50%);
+-moz-transform:translate(0, -50%);
+}
+@else {
+position: absolute;
+left: 50%;
+transform:translate(-50%, 0);
+-webkit-transform:translate(-50%, 0);
+-moz-transform:translate(-50%, 0);
+}
+}
+@mixin arrow(){  
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAHCAMAAAALbFwWAAAAKlBMVEXvTU7vTU7vTU7vTU7vTU7vTU7vTU7vTU7vTU7vTU7vTU7vTU7vTU7vTU4Z+KYOAAAADnRSTlMAGDM2QkVIbG942OTn6nNLgZEAAAAwSURBVAjXRcfJEQAgCMDAiOCJ/bfrQwbz2jArUVfU48YqoC5pMJc02JY0tPMN+nwBKRUA0ciUCCYAAAAASUVORK5CYII=);
+}
+@mixin transitionEaseFast() {
+transition:all .15s ease;
+-o-transition:all .15s ease;
+-ms-transition:all .15s ease;
+-moz-transition:all .15s ease;
+-webkit-transition:all .15s ease;
+}
+
+// Google fonts Lato
+//example font-family: 'Lato', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+// Google fonts Open Sans Light
+//example font-family: 'Open Sans Condensed', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+// Google fonts Ubuntu normal
+//example font-family: 'Ubuntu', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+
+@font-face {
+font-family: 'nc-bold';
+src: url(../fonts/Novecentowide-Bold.otf);
+}
+@font-face {
+font-family: 'nc-book';
+src: url(../fonts/Novecentowide-Book.otf);
+}
+@font-face {
+font-family: 'nc-demibold';
+src: url(../fonts/Novecentowide-DemiBold.otf);
+}
+@font-face {
+font-family: 'nc-light';
+src: url(../fonts/Novecentowide-Light.otf);
+}
+@font-face {
+font-family: 'nc-medium';
+src: url(../fonts/Novecentowide-Medium.otf);
+}
+@font-face {
+font-family: 'nc-normal';
+src: url(../fonts/Novecentowide-Normal.otf);
+}
+@font-face {
+font-family: 'icon-font';
+src: url(../fonts/Stroke-Gap-Icons.ttf);
+}
+
+.icon-WorldWide:before {
+content: "\e600";
+}
+.icon-WorldGlobe:before {
+content: "\e601";
+}
+.icon-Underpants:before {
+content: "\e602";
+}
+.icon-Tshirt:before {
+content: "\e603";
+}
+.icon-Trousers:before {
+content: "\e604";
+}
+.icon-Tie:before {
+content: "\e605";
+}
+.icon-TennisBall:before {
+content: "\e606";
+}
+.icon-Telesocpe:before {
+content: "\e607";
+}
+.icon-Stop:before {
+content: "\e608";
+}
+.icon-Starship:before {
+content: "\e609";
+}
+.icon-Starship2:before {
+content: "\e60a";
+}
+.icon-Speaker:before {
+content: "\e60b";
+}
+.icon-Speaker2:before {
+content: "\e60c";
+}
+.icon-Soccer:before {
+content: "\e60d";
+}
+.icon-Snikers:before {
+content: "\e60e";
+}
+.icon-Scisors:before {
+content: "\e60f";
+}
+.icon-Puzzle:before {
+content: "\e610";
+}
+.icon-Printer:before {
+content: "\e611";
+}
+.icon-Pool:before {
+content: "\e612";
+}
+.icon-Podium:before {
+content: "\e613";
+}
+.icon-Play:before {
+content: "\e614";
+}
+.icon-Planet:before {
+content: "\e615";
+}
+.icon-Pause:before {
+content: "\e616";
+}
+.icon-Next:before {
+content: "\e617";
+}
+.icon-MusicNote2:before {
+content: "\e618";
+}
+.icon-MusicNote:before {
+content: "\e619";
+}
+.icon-MusicMixer:before {
+content: "\e61a";
+}
+.icon-Microphone:before {
+content: "\e61b";
+}
+.icon-Medal:before {
+content: "\e61c";
+}
+.icon-ManFigure:before {
+content: "\e61d";
+}
+.icon-Magnet:before {
+content: "\e61e";
+}
+.icon-Like:before {
+content: "\e61f";
+}
+.icon-Hanger:before {
+content: "\e620";
+}
+.icon-Handicap:before {
+content: "\e621";
+}
+.icon-Forward:before {
+content: "\e622";
+}
+.icon-Footbal:before {
+content: "\e623";
+}
+.icon-Flag:before {
+content: "\e624";
+}
+.icon-FemaleFigure:before {
+content: "\e625";
+}
+.icon-Dislike:before {
+content: "\e626";
+}
+.icon-DiamondRing:before {
+content: "\e627";
+}
+.icon-Cup:before {
+content: "\e628";
+}
+.icon-Crown:before {
+content: "\e629";
+}
+.icon-Column:before {
+content: "\e62a";
+}
+.icon-Click:before {
+content: "\e62b";
+}
+.icon-Cassette:before {
+content: "\e62c";
+}
+.icon-Bomb:before {
+content: "\e62d";
+}
+.icon-BatteryLow:before {
+content: "\e62e";
+}
+.icon-BatteryFull:before {
+content: "\e62f";
+}
+.icon-Bascketball:before {
+content: "\e630";
+}
+.icon-Astronaut:before {
+content: "\e631";
+}
+.icon-WineGlass:before {
+content: "\e632";
+}
+.icon-Water:before {
+content: "\e633";
+}
+.icon-Wallet:before {
+content: "\e634";
+}
+.icon-Umbrella:before {
+content: "\e635";
+}
+.icon-TV:before {
+content: "\e636";
+}
+.icon-TeaMug:before {
+content: "\e637";
+}
+.icon-Tablet:before {
+content: "\e638";
+}
+.icon-Soda:before {
+content: "\e639";
+}
+.icon-SodaCan:before {
+content: "\e63a";
+}
+.icon-SimCard:before {
+content: "\e63b";
+}
+.icon-Signal:before {
+content: "\e63c";
+}
+.icon-Shaker:before {
+content: "\e63d";
+}
+.icon-Radio:before {
+content: "\e63e";
+}
+.icon-Pizza:before {
+content: "\e63f";
+}
+.icon-Phone:before {
+content: "\e640";
+}
+.icon-Notebook:before {
+content: "\e641";
+}
+.icon-Mug:before {
+content: "\e642";
+}
+.icon-Mastercard:before {
+content: "\e643";
+}
+.icon-Ipod:before {
+content: "\e644";
+}
+.icon-Info:before {
+content: "\e645";
+}
+.icon-Icecream2:before {
+content: "\e646";
+}
+.icon-Icecream1:before {
+content: "\e647";
+}
+.icon-Hourglass:before {
+content: "\e648";
+}
+.icon-Help:before {
+content: "\e649";
+}
+.icon-Goto:before {
+content: "\e64a";
+}
+.icon-Glasses:before {
+content: "\e64b";
+}
+.icon-Gameboy:before {
+content: "\e64c";
+}
+.icon-ForkandKnife:before {
+content: "\e64d";
+}
+.icon-Export:before {
+content: "\e64e";
+}
+.icon-Exit:before {
+content: "\e64f";
+}
+.icon-Espresso:before {
+content: "\e650";
+}
+.icon-Drop:before {
+content: "\e651";
+}
+.icon-Download:before {
+content: "\e652";
+}
+.icon-Dollars:before {
+content: "\e653";
+}
+.icon-Dollar:before {
+content: "\e654";
+}
+.icon-DesktopMonitor:before {
+content: "\e655";
+}
+.icon-Corkscrew:before {
+content: "\e656";
+}
+.icon-CoffeeToGo:before {
+content: "\e657";
+}
+.icon-Chart:before {
+content: "\e658";
+}
+.icon-ChartUp:before {
+content: "\e659";
+}
+.icon-ChartDown:before {
+content: "\e65a";
+}
+.icon-Calculator:before {
+content: "\e65b";
+}
+.icon-Bread:before {
+content: "\e65c";
+}
+.icon-Bourbon:before {
+content: "\e65d";
+}
+.icon-BottleofWIne:before {
+content: "\e65e";
+}
+.icon-Bag:before {
+content: "\e65f";
+}
+.icon-Arrow:before {
+content: "\e660";
+}
+.icon-Antenna2:before {
+content: "\e661";
+}
+.icon-Antenna1:before {
+content: "\e662";
+}
+.icon-Anchor:before {
+content: "\e663";
+}
+.icon-Wheelbarrow:before {
+content: "\e664";
+}
+.icon-Webcam:before {
+content: "\e665";
+}
+.icon-Unlinked:before {
+content: "\e666";
+}
+.icon-Truck:before {
+content: "\e667";
+}
+.icon-Timer:before {
+content: "\e668";
+}
+.icon-Time:before {
+content: "\e669";
+}
+.icon-StorageBox:before {
+content: "\e66a";
+}
+.icon-Star:before {
+content: "\e66b";
+}
+.icon-ShoppingCart:before {
+content: "\e66c";
+}
+.icon-Shield:before {
+content: "\e66d";
+}
+.icon-Seringe:before {
+content: "\e66e";
+}
+.icon-Pulse:before {
+content: "\e66f";
+}
+.icon-Plaster:before {
+content: "\e670";
+}
+.icon-Plaine:before {
+content: "\e671";
+}
+.icon-Pill:before {
+content: "\e672";
+}
+.icon-PicnicBasket:before {
+content: "\e673";
+}
+.icon-Phone2:before {
+content: "\e674";
+}
+.icon-Pencil:before {
+content: "\e675";
+}
+.icon-Pen:before {
+content: "\e676";
+}
+.icon-PaperClip:before {
+content: "\e677";
+}
+.icon-On-Off:before {
+content: "\e678";
+}
+.icon-Mouse:before {
+content: "\e679";
+}
+.icon-Megaphone:before {
+content: "\e67a";
+}
+.icon-Linked:before {
+content: "\e67b";
+}
+.icon-Keyboard:before {
+content: "\e67c";
+}
+.icon-House:before {
+content: "\e67d";
+}
+.icon-Heart:before {
+content: "\e67e";
+}
+.icon-Headset:before {
+content: "\e67f";
+}
+.icon-FullShoppingCart:before {
+content: "\e680";
+}
+.icon-FullScreen:before {
+content: "\e681";
+}
+.icon-Folder:before {
+content: "\e682";
+}
+.icon-Floppy:before {
+content: "\e683";
+}
+.icon-Files:before {
+content: "\e684";
+}
+.icon-File:before {
+content: "\e685";
+}
+.icon-FileBox:before {
+content: "\e686";
+}
+.icon-ExitFullScreen:before {
+content: "\e687";
+}
+.icon-EmptyBox:before {
+content: "\e688";
+}
+.icon-Delete:before {
+content: "\e689";
+}
+.icon-Controller:before {
+content: "\e68a";
+}
+.icon-Compass:before {
+content: "\e68b";
+}
+.icon-CompassTool:before {
+content: "\e68c";
+}
+.icon-ClipboardText:before {
+content: "\e68d";
+}
+.icon-ClipboardChart:before {
+content: "\e68e";
+}
+.icon-ChemicalGlass:before {
+content: "\e68f";
+}
+.icon-CD:before {
+content: "\e690";
+}
+.icon-Carioca:before {
+content: "\e691";
+}
+.icon-Car:before {
+content: "\e692";
+}
+.icon-Book:before {
+content: "\e693";
+}
+.icon-BigTruck:before {
+content: "\e694";
+}
+.icon-Bicycle:before {
+content: "\e695";
+}
+.icon-Wrench:before {
+content: "\e696";
+}
+.icon-Web:before {
+content: "\e697";
+}
+.icon-Watch:before {
+content: "\e698";
+}
+.icon-Volume:before {
+content: "\e699";
+}
+.icon-Video:before {
+content: "\e69a";
+}
+.icon-Users:before {
+content: "\e69b";
+}
+.icon-User:before {
+content: "\e69c";
+}
+.icon-UploadCLoud:before {
+content: "\e69d";
+}
+.icon-Typing:before {
+content: "\e69e";
+}
+.icon-Tools:before {
+content: "\e69f";
+}
+.icon-Tag:before {
+content: "\e6a0";
+}
+.icon-Speedometter:before {
+content: "\e6a1";
+}
+.icon-Share:before {
+content: "\e6a2";
+}
+.icon-Settings:before {
+content: "\e6a3";
+}
+.icon-Search:before {
+content: "\e6a4";
+}
+.icon-Screwdriver:before {
+content: "\e6a5";
+}
+.icon-Rolodex:before {
+content: "\e6a6";
+}
+.icon-Ringer:before {
+content: "\e6a7";
+}
+.icon-Resume:before {
+content: "\e6a8";
+}
+.icon-Restart:before {
+content: "\e6a9";
+}
+.icon-PowerOff:before {
+content: "\e6aa";
+}
+.icon-Pointer:before {
+content: "\e6ab";
+}
+.icon-Picture:before {
+content: "\e6ac";
+}
+.icon-OpenedLock:before {
+content: "\e6ad";
+}
+.icon-Notes:before {
+content: "\e6ae";
+}
+.icon-Mute:before {
+content: "\e6af";
+}
+.icon-Movie:before {
+content: "\e6b0";
+}
+.icon-Microphone2:before {
+content: "\e6b1";
+}
+.icon-Message:before {
+content: "\e6b2";
+}
+.icon-MessageRight:before {
+content: "\e6b3";
+}
+.icon-MessageLeft:before {
+content: "\e6b4";
+}
+.icon-Menu:before {
+content: "\e6b5";
+}
+.icon-Media:before {
+content: "\e6b6";
+}
+.icon-Mail:before {
+content: "\e6b7";
+}
+.icon-List:before {
+content: "\e6b8";
+}
+.icon-Layers:before {
+content: "\e6b9";
+}
+.icon-Key:before {
+content: "\e6ba";
+}
+.icon-Imbox:before {
+content: "\e6bb";
+}
+.icon-Eye:before {
+content: "\e6bc";
+}
+.icon-Edit:before {
+content: "\e6bd";
+}
+.icon-DSLRCamera:before {
+content: "\e6be";
+}
+.icon-DownloadCloud:before {
+content: "\e6bf";
+}
+.icon-CompactCamera:before {
+content: "\e6c0";
+}
+.icon-Cloud:before {
+content: "\e6c1";
+}
+.icon-ClosedLock:before {
+content: "\e6c2";
+}
+.icon-Chart2:before {
+content: "\e6c3";
+}
+.icon-Bulb:before {
+content: "\e6c4";
+}
+.icon-Briefcase:before {
+content: "\e6c5";
+}
+.icon-Blog:before {
+content: "\e6c6";
+}
+.icon-Agenda:before {
+content: "\e6c7";
+}

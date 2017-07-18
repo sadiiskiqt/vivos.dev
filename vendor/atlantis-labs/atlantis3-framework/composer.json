@@ -1,0 +1,22 @@
+{
+  "name": "atlantis-labs/atlantis3-framework",
+  "description": "Atlantis CMS 3 framework",
+  "keywords": ["framework", "atlantis", "framework", "cms"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Atlantis\\": "src/Atlantis"
+    }
+  },
+  "require": {
+    "laravel/framework": "5.3.*",
+    "laravelcollective/html": "5.3.*",
+    "intervention/image": "^2.3",
+    "symfony/polyfill-php56": "^1.0",
+    "maatwebsite/excel": "~2.1.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "league/flysystem-aws-s3-v3": "~1.0",
+    "chumper/zipper": "0.6.x",
+    "barryvdh/laravel-debugbar": "2.*"
+  }
+}

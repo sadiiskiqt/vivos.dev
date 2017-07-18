@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="ckeditor.js"></script>
+</head>
+<body>
+	 <form>
+            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'editor1' , {
+                	'allowedContent': true, 
+                	'enterMode' : CKEDITOR.ENTER_BR
+
+                });
+
+				CKEDITOR.on( 'instanceReady', function( ev ) {
+    				// Ends self-closing tags the HTML4 way, like <br>.
+    				ev.editor.dataProcessor.writer.selfClosingEnd = '>';
+				});
+
+            </script>
+        </form>
+</body>
+</html>

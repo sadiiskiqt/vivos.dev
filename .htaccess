@@ -1,0 +1,24 @@
+<FilesMatch "\.(env|htaccess)$">
+        deny from all
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>    
+
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*?)\.(css|js|jpg|jpeg|JPEG|png|pdf|eot|ttf|woff|woff2|otf|svg|eot|gif)$ - [L,R=301]    
+
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    RewriteRule ^(?:app|bootstrap|config|database|modules|resources|storage|vendor)\b index.php/$0 [L]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>

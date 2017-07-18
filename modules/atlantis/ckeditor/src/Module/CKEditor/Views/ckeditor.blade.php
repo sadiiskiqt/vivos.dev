@@ -1,0 +1,1 @@
+{!! Form::textarea($name, old($name, $value), $attributes) !!}
