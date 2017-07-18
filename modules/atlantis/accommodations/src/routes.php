@@ -14,3 +14,5 @@ Route::get('getRooms', 'Module\Accommodations\Controllers\AccommodationsControll
 Route::get('getSearchVal', 'Module\Accommodations\Controllers\AccommodationsController@getSearchVal');
 
 Route::get('autocomplete', 'Module\Accommodations\Controllers\AccommodationsController@autocomplete');
+
+Route::get('offer/{id}/{name}', 'Module\Accommodations\Controllers\RoomProfileController@getIndex');

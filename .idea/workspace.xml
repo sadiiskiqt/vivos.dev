@@ -2,65 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69f64ee4-2f90-4a8b-a5a2-8434badf6ea7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Commands/AccommodationsCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/AccommodationsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/AccommodationsAdminController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/AccommodationsDataTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/CheckboxDataTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/DropDownDataTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Events/AccommodationsEvent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Languages/en/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Languages/en/validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodation_checkbox_category_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodation_dropdown_category_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodation_dropdown_options_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodations_checkbox_filter_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodations_drop_down_filter_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodations_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Accommodations.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/AccommodationsDropDown.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Checkbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/CheckboxFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/DropDownOption.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/OptionFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Repositories/AccommodationsFilterRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Repositories/AccommodationsRepository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Sitemap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Providers/AccommodationsServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Seed/AccommodationsSeeder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Setup/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Setup/Setup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Traits/AccommodationsTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/ajax/filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/css/styles.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accommodations.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accomodationsRooms.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accomodationsRoomsPagination.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/add-checkbox.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/add-room.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/add-select.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/blank.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/checkbox-list.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/drop-down-list.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/edit/edit-checkbox.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/edit/edit-dropdown.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/edit/edit-room.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/view-widget.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/rooms/rooms-list.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Widgets/AccommodationsWidget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/RoomProfileController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/footer.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/header.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/filter/filter.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/rooms/room-profile.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accommodations.blade.php" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accommodations.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/atlantis/accommodations/src/routes.php" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/routes.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,11 +25,73 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AccommodationsSeeder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Seed/AccommodationsSeeder.php">
+      <file leaf-file-name="accommodations.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accommodations.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/filter/filter.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+              <folding>
+                <element signature="n#form#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room-profile.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/rooms/room-profile.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomProfileController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/RoomProfileController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -89,6 +101,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/RoomProfileController.php" />
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/routes.php" />
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/header.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/test.blade.php" />
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/footer.blade.php" />
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/filter/filter.blade.php" />
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accommodations.blade.php" />
+        <option value="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/rooms/room-profile.blade.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -103,10 +130,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -249,7 +276,129 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Seed" />
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,12 +408,66 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alex3_atlantis.dev" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vivos.dev\modules\atlantis\accommodations\src\Module\Accommodations\Controllers" />
       <recent name="C:\xampp\htdocs\vivos.dev\modules\atlantis" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -276,19 +479,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500388940906</updated>
-      <workItem from="1500388942877" duration="126000" />
+      <workItem from="1500388942877" duration="3106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126000" />
+    <option name="totallyTimeSpent" value="3106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3547655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -322,6 +525,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/AccommodationsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="77" lean-forward="false" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/test.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/RoomProfileController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/app/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/filter/filter.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="62" column="7" lean-forward="false" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding>
+            <element signature="n#form#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accommodations.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/rooms/room-profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
           <folding />
         </state>
       </provider>
