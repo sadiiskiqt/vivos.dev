@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69f64ee4-2f90-4a8b-a5a2-8434badf6ea7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/assets/images/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Commands/AccommodationsCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/AccommodationsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/AccommodationsAdminController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/AccommodationsDataTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/CheckboxDataTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Controllers/Admin/DropDownDataTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Events/AccommodationsEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Languages/en/messages.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Languages/en/validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodation_checkbox_category_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodation_dropdown_category_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodation_dropdown_options_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodations_checkbox_filter_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodations_drop_down_filter_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Migrations/05_10_2017_161142_create_accommodations_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Accommodations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/AccommodationsDropDown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Checkbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/CheckboxFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/DropDownOption.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/OptionFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Repositories/AccommodationsFilterRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Repositories/AccommodationsRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Models/Sitemap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Providers/AccommodationsServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Seed/AccommodationsSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Setup/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Setup/Setup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Traits/AccommodationsTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/ajax/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/css/styles.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Vendor/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accommodations.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accomodationsRooms.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/accomodationsRoomsPagination.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/add-checkbox.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/add-room.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/add-select.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/blank.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/checkbox-list.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/drop-down-list.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/edit/edit-checkbox.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/edit/edit-dropdown.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/edit/edit-room.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/admin/view-widget.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Views/rooms/rooms-list.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Widgets/AccommodationsWidget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/atlantis/accommodations/src/routes.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AccommodationsSeeder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Seed/AccommodationsSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivos.dev" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlantis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Accommodations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Seed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\vivos.dev\modules\atlantis" />
+    </key>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69f64ee4-2f90-4a8b-a5a2-8434badf6ea7" name="Default" comment="" />
+      <created>1500388940906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500388940906</updated>
+      <workItem from="1500388942877" duration="126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="126000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3547655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/atlantis/accommodations/src/Module/Accommodations/Seed/AccommodationsSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
